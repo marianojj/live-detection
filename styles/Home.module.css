@@ -1,34 +1,29 @@
 .container {
-  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-.camera__element {
-  height: auto;
-  left: 50%;
-  min-height: 100%;
-  min-width: 100%;
-  overflow: hidden;
-  position: absolute;
-  top: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  width: auto;
-  z-index: 1;
+.camera {
+  /* height: 100%; */
+  width: 10%;
+  display: none;
+  /* visibility: hidden; */
 }
 
 .main {
-  min-height: 100vh;
-  padding: 4rem 0;
+  height: 100%;
+  padding: 1rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
 .footer {
   display: flex;
-  flex: 1;
-  padding: 2rem 0;
+  padding: 1rem 0;
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
@@ -55,7 +50,7 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .title,
