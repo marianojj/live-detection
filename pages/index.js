@@ -118,7 +118,7 @@ export default function Home() {
 
     useEffect(() => {
         setup();
-    }, []);
+    });
 
     return (
         <div className={styles.container}>
